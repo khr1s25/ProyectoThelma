@@ -17,29 +17,31 @@ DEFINES += QT_DEPRECATED_WARNINGS
 
 SOURCES += \
     admin.cpp \
+    citas.cpp \
     control.cpp \
     main.cpp \
     mainwindow.cpp \
-    menuinvestigador.cpp \
     menupsicologo.cpp \
     menusecre.cpp \
     menusuper.cpp \
+    paciente.cpp \
     trabajador.cpp
 
 HEADERS += \
     admin.h \
+    citas.h \
     control.h \
     mainwindow.h \
-    menuinvestigador.h \
     menupsicologo.h \
     menusecre.h \
     menusuper.h \
+    paciente.h \
     trabajador.h
 
 FORMS += \
     control.ui \
     mainwindow.ui \
-    menuinvestigador.ui \
+    menupsicologo.ui \
     menusecre.ui \
     menusuper.ui
 
