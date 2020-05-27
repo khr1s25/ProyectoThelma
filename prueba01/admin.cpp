@@ -31,7 +31,7 @@ void Admin::log(QString user, QString password)
     else{
     conOpen();
     QSqlQuery qry;
-    qry.prepare("SELECT * FROM TRABAJADOR where user='"+user+"' and password= '"+password+"'");
+    qry.prepare("SELECT * FROM  where user='"+user+"' and password= '"+password+"'");
 
     if(qry.exec()){
         int fieldNo = qry.record().indexOf("cedula");
