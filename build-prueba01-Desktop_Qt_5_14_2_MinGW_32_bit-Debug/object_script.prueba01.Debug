@@ -1,0 +1,14 @@
+debug/admin.o
+debug/control.o
+debug/main.o
+debug/mainwindow.o
+debug/menuinvestigador.o
+debug/menusecre.o
+debug/menusuper.o
+debug/trabajador.o
+debug/moc_admin.o
+debug/moc_control.o
+debug/moc_mainwindow.o
+debug/moc_menuinvestigador.o
+debug/moc_menusecre.o
+debug/moc_menusuper.o

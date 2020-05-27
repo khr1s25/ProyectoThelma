@@ -22,7 +22,7 @@ void MenuInvestigador::mostrar()
     model->select();
     ui->mostrarTable->setModel(model);
     conClose();
-    consulorio.close();
+    proyecto.close();
 }
 
 

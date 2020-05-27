@@ -129,7 +129,7 @@ void MenuSuper::on_mBuscarPB_clicked()
     }
     ui->mUserLineE->clear();
     conClose();
-    consulorio.close();
+    proyecto.close();
 }
 
 void MenuSuper::on_pushButton_clicked()
@@ -154,7 +154,7 @@ void MenuSuper::on_pushButton_clicked()
        message.exec();
    }
    conClose();
-   consulorio.close();
+   proyecto.close();
    ui->nombre->clear();
    ui->apellidos->clear();
    ui->usuario->clear();
@@ -182,7 +182,7 @@ void MenuSuper::on_eUserPB_clicked()
     }
     ui->eUser->clear();
     conClose();
-    consulorio.close();
+    proyecto.close();
 }
 
 void MenuSuper::on_mostrar_clicked()
@@ -194,8 +194,8 @@ void MenuSuper::on_mostrar_clicked()
     model->select();
     ui->tableView->setModel(model);
     conClose();
-    consulorio.close();
-    consulorio.removeDatabase(QSqlDatabase::defaultConnection);
+    proyecto.close();
+    proyecto.removeDatabase(QSqlDatabase::defaultConnection);
 }
 
 void MenuSuper::on_pushButton_2_clicked()
@@ -220,7 +220,7 @@ void MenuSuper::on_pushButton_2_clicked()
         message.exec();
     }
     conClose();
-    consulorio.close();
+    proyecto.close();
     ui->nombre_2->clear();
     ui->apellidos_2->clear();
     ui->usuario_2->clear();

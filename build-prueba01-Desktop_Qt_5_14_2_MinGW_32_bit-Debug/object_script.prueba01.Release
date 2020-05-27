@@ -1,0 +1,14 @@
+release/admin.o
+release/control.o
+release/main.o
+release/mainwindow.o
+release/menuinvestigador.o
+release/menusecre.o
+release/menusuper.o
+release/trabajador.o
+release/moc_admin.o
+release/moc_control.o
+release/moc_mainwindow.o
+release/moc_menuinvestigador.o
+release/moc_menusecre.o
+release/moc_menusuper.o

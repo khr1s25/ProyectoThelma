@@ -21,7 +21,7 @@ void MenuSecre::on_Mostrar_clicked()
     model->setTable("CITA");
     model->select();
     ui->tableView->setModel(model);
-    consulorio.close();
+    proyecto.close();
     conClose();
 }
 
