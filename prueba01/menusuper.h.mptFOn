@@ -44,31 +44,31 @@ public:
     ~MenuSuper();
 
 private slots:
-//    void on_radioCedula_toggled(bool checked);
+    void on_radioCedula_toggled(bool checked);
 
-//    void on_radioUsuario_toggled(bool checked);
+    void on_radioUsuario_toggled(bool checked);
 
-//    void on_radioPassword_toggled(bool checked);
+    void on_radioPassword_toggled(bool checked);
 
-//    void on_radioNombre_toggled(bool checked);
+    void on_radioNombre_toggled(bool checked);
 
-//    void on_radioApellidos_toggled(bool checked);
+    void on_radioApellidos_toggled(bool checked);
 
-//    void on_radioPhone_toggled(bool checked);
+    void on_radioPhone_toggled(bool checked);
 
-//    void on_radioEMail_toggled(bool checked);
+    void on_radioEMail_toggled(bool checked);
 
-//    void on_radioCedula_2_toggled(bool checked);
+    void on_radioCedula_2_toggled(bool checked);
 
-//    void on_mBuscarPB_clicked();
+    void on_mBuscarPB_clicked();
 
-//    void on_pushButton_clicked();
+    void on_pushButton_clicked();
 
-//    void on_eUserPB_clicked();
+    void on_eUserPB_clicked();
 
-//    void on_mostrar_clicked();
+    void on_mostrar_clicked();
 
-//    void on_pushButton_2_clicked();
+    void on_pushButton_2_clicked();
 
 private:
     Ui::MenuSuper *ui;

@@ -9,9 +9,6 @@
 #include <QDebug>
 #include <QFileInfo>
 #include <QSqlDatabase>
-#include "citas.h"
-#include "paciente.h"
-#include "trabajador.h"
 #include "mainwindow.h"
 #include "menusuper.h"
 #include "control.h"
@@ -61,7 +58,6 @@ private:
     MenuSecre* secreUser;
     MenuInvestigador* invesUser;
     Control* controller;
-    Trabajador current;
 
 public slots:
 };
