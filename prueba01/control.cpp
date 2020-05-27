@@ -18,12 +18,12 @@ void Control::on_superMenu_clicked()
     emit abrirSuperMenu();
 }
 
-void Control::on_psicoMenu_clicked()
-{
-    emit abrirPsicoMenu();
-}
-
 void Control::on_secreMenu_clicked()
 {
     emit abrirSecreMenu();
+}
+
+void Control::on_invesMenu_clicked()
+{
+    emit abrirInvesMenu();
 }

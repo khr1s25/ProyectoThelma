@@ -18,14 +18,14 @@ public:
 signals:
     void abrirSuperMenu();
     void abrirSecreMenu();
-    void abrirPsicoMenu();
+    void abrirInvesMenu();
 
 private slots:
     void on_superMenu_clicked();
 
-    void on_psicoMenu_clicked();
-
     void on_secreMenu_clicked();
+
+    void on_invesMenu_clicked();
 
 private:
     Ui::Control *ui;

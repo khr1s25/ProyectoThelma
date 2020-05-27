@@ -8,9 +8,9 @@ Admin::Admin(QObject *parent) : QObject(parent)
     secreUser = new MenuSecre();
     invesUser = new MenuInvestigador();
 
-    QObject::connect(mainWindow,SIGNAL(loginValidation(QString,QString)),this,SL OT(log(QString,QString)));
+    QObject::connect(mainWindow,SIGNAL(loginValidation(QString,QString)),this,SLOT(log(QString,QString)));
     QObject::connect(controller,SIGNAL(abrirSuperMenu()),this,SLOT(openSuper()));
-    QObject::connect(controller,SIGNAL(abrirPsicoMenu()),this,SLOT(openInves()));
+    QObject::connect(controller,SIGNAL(abrirInvesMenu()),this,SLOT(openInves()));
     QObject::connect(controller,SIGNAL(abrirSecreMenu()),this,SLOT(openSecre()));
 }
 
