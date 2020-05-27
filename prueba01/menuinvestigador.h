@@ -47,6 +47,8 @@ private slots:
 
     void on_mBuscarPB_clicked();
 
+    void on_mostrar_clicked();
+
 private:
     Ui::MenuInvestigador *ui;
 };

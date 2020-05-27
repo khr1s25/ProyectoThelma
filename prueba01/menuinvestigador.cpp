@@ -18,13 +18,12 @@ void MenuInvestigador::mostrar()
     conOpen();
     QSqlTableModel *model = new QSqlTableModel(this);
 
-    model->setTable("PACIENTE");
+    model->setTable("documento");
     model->select();
     ui->mostrarTable->setModel(model);
     conClose();
     proyecto.close();
 }
-
 
 void MenuInvestigador::on_eTextPB_clicked()
 {
@@ -74,4 +73,9 @@ void MenuInvestigador::on_mBuscarPB_clicked()
 //    conClose();
 //    ui->mFolioLineE->clear();
 //    consulorio.close();
+}
+
+void MenuInvestigador::on_mostrar_clicked()
+{
+
 }
