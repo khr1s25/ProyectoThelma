@@ -1,9 +1,0 @@
-# depslib dependency file v1.0
-1573676134 source:c:\users\user\desktop\universidad\6to semestre\estructura de datos ii\proyecto final arrona bb\citas.cpp
-	"citas.h"
-	<string.h>
-	<iostream>
-
-1573676133 c:\users\user\desktop\universidad\6to semestre\estructura de datos ii\proyecto final arrona bb\citas.h
-	<string>
-
