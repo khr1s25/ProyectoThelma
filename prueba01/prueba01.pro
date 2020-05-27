@@ -21,7 +21,6 @@ SOURCES += \
     main.cpp \
     mainwindow.cpp \
     menuinvestigador.cpp \
-    menupsicologo.cpp \
     menusecre.cpp \
     menusuper.cpp \
     trabajador.cpp
@@ -31,7 +30,6 @@ HEADERS += \
     control.h \
     mainwindow.h \
     menuinvestigador.h \
-    menupsicologo.h \
     menusecre.h \
     menusuper.h \
     trabajador.h

@@ -40,12 +40,7 @@ public:
 
 private slots:
 
-
-    void on_eText_textChanged(const QString &arg1);
-
     void on_eTextPB_clicked();
-
-    void on_mFolioLineE_textChanged(const QString &arg1);
 
     void on_mBuscarPB_clicked();
 
