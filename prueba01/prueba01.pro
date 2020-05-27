@@ -23,7 +23,6 @@ SOURCES += \
     menuinvestigador.cpp \
     menusecre.cpp \
     menusuper.cpp \
-    trabajador.cpp
 
 HEADERS += \
     admin.h \
@@ -31,8 +30,7 @@ HEADERS += \
     mainwindow.h \
     menuinvestigador.h \
     menusecre.h \
-    menusuper.h \
-    trabajador.h
+    menusuper.h
 
 FORMS += \
     control.ui \

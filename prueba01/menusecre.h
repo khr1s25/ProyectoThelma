@@ -23,7 +23,7 @@ public:
     }
     bool conOpen(){
         proyecto = QSqlDatabase::addDatabase("QPSQL");
-        proyecto.setHostName("raja.db.elephantsql.com ");
+        proyecto.setHostName("raja.db.elephantsql.com");
         proyecto.setDatabaseName("kzsmfegt");
         proyecto.setUserName("kzsmfegt");
         proyecto.setPassword("pFIr6z8v2UOgoO90G6ymgZANW1f0a64z");

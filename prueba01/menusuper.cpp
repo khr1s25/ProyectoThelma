@@ -1,5 +1,4 @@
 #include "menusuper.h"
-#include "menusuper.h"
 #include "ui_menusuper.h"
 
 MenuSuper::MenuSuper(QWidget *parent) :
@@ -7,7 +6,6 @@ MenuSuper::MenuSuper(QWidget *parent) :
     ui(new Ui::MenuSuper)
 {
     ui->setupUi(this);
-
 }
 
 MenuSuper::~MenuSuper()
@@ -55,33 +53,23 @@ void MenuSuper::on_radioNombre_toggled(bool checked)
     }
 }
 
-void MenuSuper::on_radioApellidos_toggled(bool checked)
+void MenuSuper::on_radioEdad_toggled(bool checked)
 {
     if(checked == true){
-        ui->apellidos_2->setEnabled(true);
+        ui->edad_2->setEnabled(true);
     }
     else{
-        ui->apellidos_2->setEnabled(false);
+        ui->edad_2->setEnabled(false);
     }
 }
 
-void MenuSuper::on_radioPhone_toggled(bool checked)
+void MenuSuper::on_radioSexo_toggled(bool checked)
 {
     if(checked == true){
-        ui->telefono_2->setEnabled(true);
+        ui->sexo_2->setEnabled(true);
     }
     else{
-        ui->telefono_2->setEnabled(false);
-    }
-}
-
-void MenuSuper::on_radioEMail_toggled(bool checked)
-{
-    if(checked == true){
-        ui->email_2->setEnabled(true);
-    }
-    else{
-        ui->email_2->setEnabled(false);
+        ui->sexo_2->setEnabled(false);
     }
 }
 
@@ -137,11 +125,10 @@ void MenuSuper::on_pushButton_clicked()
 {
 //   QString nombre,appelidos,user,password,telefono,email,cedula;
 //   nombre=ui->nombre->text();
-//   appelidos=ui->apellidos->text();
+//   sexo=ui->sexo->text();
 //   user=ui->usuario->text();
 //   password=ui->password->text();
-//   telefono=ui->telefono->text();
-//   email=ui->email->text();
+//   edad=ui->edad->text();
 //   cedula=ui->cedula->text();
 
 //   conOpen();
@@ -160,7 +147,6 @@ void MenuSuper::on_pushButton_clicked()
 //   ui->apellidos->clear();
 //   ui->usuario->clear();
 //   ui->password->clear();
-//   ui->telefono->clear();
 //   ui->email->clear();
 //   ui->cedula->clear();
 }

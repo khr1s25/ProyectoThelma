@@ -18,7 +18,7 @@
     <item row="0" column="0">
      <widget class="QTabWidget" name="tabWidget">
       <property name="currentIndex">
-       <number>0</number>
+       <number>1</number>
       </property>
       <widget class="QWidget" name="creaUsuario">
        <attribute name="title">
@@ -307,14 +307,14 @@
             </widget>
            </item>
            <item row="8" column="0">
-            <widget class="QCheckBox" name="radioApellidos">
+            <widget class="QCheckBox" name="radioSexo">
              <property name="text">
               <string/>
              </property>
             </widget>
            </item>
            <item row="8" column="1">
-            <widget class="QLineEdit" name="apellidos_2">
+            <widget class="QLineEdit" name="sexo_2">
              <property name="enabled">
               <bool>false</bool>
              </property>
@@ -331,14 +331,14 @@
             </widget>
            </item>
            <item row="10" column="0">
-            <widget class="QCheckBox" name="radioPhone">
+            <widget class="QCheckBox" name="radioEdad">
              <property name="text">
               <string/>
              </property>
             </widget>
            </item>
            <item row="10" column="1">
-            <widget class="QLineEdit" name="telefono_2">
+            <widget class="QLineEdit" name="edad_2">
              <property name="enabled">
               <bool>false</bool>
              </property>
@@ -537,10 +537,10 @@
   <tabstop>password_2</tabstop>
   <tabstop>radioNombre</tabstop>
   <tabstop>nombre_2</tabstop>
-  <tabstop>radioApellidos</tabstop>
-  <tabstop>apellidos_2</tabstop>
-  <tabstop>radioPhone</tabstop>
-  <tabstop>telefono_2</tabstop>
+  <tabstop>radioSexo</tabstop>
+  <tabstop>sexo_2</tabstop>
+  <tabstop>radioEdad</tabstop>
+  <tabstop>edad_2</tabstop>
   <tabstop>radioCedula_2</tabstop>
   <tabstop>cedula_2</tabstop>
  </tabstops>
